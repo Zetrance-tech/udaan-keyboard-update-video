@@ -219,6 +219,16 @@ const PhotoPage = () => {
                   <RefreshCcw className="w-6 h-6" />
                   Retake
                 </button>
+
+                <button
+                  onClick={() => { navigate('/form')
+                
+                  }}
+                  className="flex items-center gap-4 px-8 py-4 bg-gradient-to-r from-amber-600 to-amber-400 rounded-lg text-black text-xl font-semibold hover:from-amber-500 hover:to-amber-300 transition-all duration-300"
+                >
+                  <RefreshCcw className="w-6 h-6" />
+                  Download
+                </button>
               </div>
             </div>
           )}
